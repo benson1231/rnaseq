@@ -1,3 +1,18 @@
+> 📌 This is a modified version of the [nf-core/rnaseq](https://github.com/nf-core/rnaseq) pipeline as of 2025/06/30, intended solely for learning and documentation purposes.  
+> The original project was developed by the [nf-core/rnaseq team](https://github.com/nf-core/rnaseq/graphs/contributors) and is licensed under the MIT License.
+
+> 📌 本專案為 [nf-core/rnaseq](https://github.com/nf-core/rnaseq) 之修改版本，修改時間為 2025/06/30，僅供學習與紀錄使用。  
+> 原始專案由 [nf-core/rnaseq 團隊](https://github.com/nf-core/rnaseq/graphs/contributors) 開發，採 MIT License 授權。
+
+Quick start (After download_db completed)
+
+```bash
+# run test
+nextflow run main.nf -profile test,docker --outdir results
+```
+
+---
+
 <h1>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/images/nf-core-rnaseq_logo_dark.png">
